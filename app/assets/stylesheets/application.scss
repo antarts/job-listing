@@ -15,6 +15,8 @@
  *= require font-awesome
  */
 
+
+
  .custab{
   border: 1px solid #ccc;
   padding: 5px;
@@ -27,6 +29,14 @@
   box-shadow: 3px 3px 0px transparent;
   transition: 0.5s;
 }
+
+.body{
+  background-image: url('http://www.cmse.ie/wp-content/uploads/2016/08/recruitment2.jpg');
+}
+
+
+
+
 
 @import "bootstrap-sprockets";
 @import "bootstrap";

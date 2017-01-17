@@ -3,22 +3,21 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .jumbotron {
-  background-image:url('http://y.photo.qq.com/img?s=n0m7YMg0L&l=y.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 110px;
+
+  background-color: rgba(255, 255, 255, 0);
+  background-image:url('https://picjumbo.imgix.net/HNCK8984.jpg?q=40&w=1650&sharp=30');
 }
 
 .title {
   font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 80px;
 }
 
 .slogan {
-  margin-top: 10px;
-  margin-bottom: 50px;
+  margin-top: 5px;
+  margin-bottom: 70px;
   text-align: center;
   color: white;
   top: 12px;
@@ -27,8 +26,9 @@
 .lead {
   margin-bottom: 60px;
   text-align: center;
-  color: white;
+  color: rgba(255, 255, 255, 0);
 }
+
 
 .caption {
   margin: 30px;
@@ -40,4 +40,20 @@
     border: 0 none;
     box-shadow: none;
     margin-top: 60px;
+}
+
+.body-fluid {
+  background-image:url('https://picjumbo.imgix.net/HNCK8984.jpg?q=40&w=1650&sharp=30');
+}
+
+div.thumbnail{
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";         */
+    /*filter: alpha(opacity=0);   */
+    /*-moz-opacity: 0.0;           */
+    /*-khtml-opacity: 0.0;         */
+    /*opacity: 0.0;                */
+    /*background: rgba(255,255,255,0);*/
+    background-color: transparent !important;
+    color: #ffffff;
+    opacity: 0.2;
 }
