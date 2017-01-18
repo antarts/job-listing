@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    flash[:notice] = 'Hi ! Welcome to Jbo Listing ！'
+    flash[:notice] = 'Hi ! Welcome to 48K Offer ！'
    end
 end
