@@ -4,8 +4,12 @@
 
 .jumbotron {
 
-  background-color: rgba(255, 255, 255, 0);
-  background-image:url('https://picjumbo.imgix.net/HNCK8984.jpg?q=40&w=1650&sharp=30');
+  // background-color: rgba(255, 255, 255, 0);
+  // background-image:url('https://picjumbo.imgix.net/HNCK8984.jpg?q=40&w=1650&sharp=30');
+  // background-size: cover;
+  background-color: inherit !important;
+  color: #ffffff;
+  opacity: 0.2;
 }
 
 .title {
@@ -43,8 +47,16 @@
 }
 
 .body-fluid {
-  background-image:url('https://picjumbo.imgix.net/HNCK8984.jpg?q=40&w=1650&sharp=30');
+  background-image:url('http://www.cmse.ie/wp-content/uploads/2016/08/recruitment2.jpg');
+  background-size: cover;
 }
+
+// html {
+//     background: url('https://picjumbo.imgix.net/HNCK8984.jpg?q=40&w=1650&sharp=30') no-repeat center center fixed;
+//    -webkit-background-size: cover;
+//    -moz-background-size: cover;
+//    background-size: cover;
+// }
 
 div.thumbnail{
     /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";         */
@@ -53,7 +65,7 @@ div.thumbnail{
     /*-khtml-opacity: 0.0;         */
     /*opacity: 0.0;                */
     /*background: rgba(255,255,255,0);*/
-    background-color: transparent !important;
+    background-color: inherit!important;
     color: #ffffff;
     opacity: 0.2;
 }
