@@ -124,7 +124,7 @@ height:100%;
     }
 
 .col-md-4{
- background-color:#D3D7E0;
+ background-color:rgba(0, 0, 0, 0.075);
  opacity: 0.4;
 margin-top:30px;
 padding: auto;
@@ -135,7 +135,7 @@ text-align: center;
 .video-section .pattern-overlay {
 background-color: rgba(71, 71, 71, 0.29);
 padding: 110px 0 32px;
-min-height: 1500px;
+min-height: 1000px;
 /* Incase of overlay problems just increase the min-height*/
 }
 
