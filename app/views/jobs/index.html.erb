@@ -2,11 +2,10 @@
   <%= render :partial => "jobs/search_bar" %>
   <thead>
         <tr>
-            <td>
-                职缺</td>
-            <td>薪资下限</td>
-            <td>薪资上限</td>
-            <td>刊登时间</td>
+            <td>Job Title</td>
+            <td>Lower Bound</td>
+            <td>Upper Bound</td>
+            <td>Created At</td>
         </tr>
 
   </thead>
@@ -76,19 +75,19 @@
 
   <div class="dropdown clearfix pull-right">
     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuDivider" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-      排序
+      Sort
         <span class="caret"></span>
     </button>
     <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
         <li>
-          <%= link_to("按照薪资下限排序", jobs_path(:order => "by_lower_bound")) %>
+          <%= link_to("by lower bound", jobs_path(:order => "by_lower_bound")) %>
         </li>
         <li>
-            <%= link_to("按照薪资上限排序", jobs_path(:order => "by_upper_bound")) %>
+            <%= link_to("by upper bound", jobs_path(:order => "by_upper_bound")) %>
 
         </li>
         <li>
-          <%= link_to("按照发表时间排序", jobs_path ) %>
+          <%= link_to("by created at", jobs_path ) %>
 
         </li>
     </ul>
