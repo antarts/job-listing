@@ -24,4 +24,7 @@ Rails.application.routes.draw do
       resources :resumes
     end
   end
+
+  resources :about do
+  end
 end
