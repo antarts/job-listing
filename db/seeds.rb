@@ -15,9 +15,9 @@ create_jos = for i in 1..10 do
                Job.create!([title: "Ruby On Rails Developer No.#{i}", description: "JOB ID:#{i}
                  <hr>
 
-                 ### Job Description
-                 <br>
-                 Our direct client in the Metro-Detroit area is looking to add a seasoned Ruby on Rails Developer on a direct-hire opportunity. The Ruby on Rails Developer will be working on the front lines to develop high quality code for their latest products as well as maintaining their existing offerings. <br>
+### Job Description
+
+Our direct client in the Metro-Detroit area is looking to add a seasoned Ruby on Rails Developer on a direct-hire opportunity. The Ruby on Rails Developer will be working on the front lines to develop high quality code for their latest products as well as maintaining their existing offerings. <br>
 
 #### Responsibilities:<br>
 * Produce high-quality code to help create new products and maintain and improve existing products.<br>
@@ -47,12 +47,12 @@ puts '10 Public jobs created.'
 
 create_jos = for i in 1..10 do
                Job.create!([title: "Senior Rails Engineer (Full-Stack) No.#{i + 10}", description: "JOB ID: #{i + 10}
-                 <hr>
+<hr>
 
-                 ### Description:
-                 <br>
-                 Senior Full Stack Rails Developer
-                 <br>
+### Description:
+
+Senior Full Stack Rails Developer
+<br>
 
 This is an opportunity to join a successful startup as senior level Ruby on Rails Engineer for a SaaS offering currently being by some of the biggest names on the Web.<br>
 
